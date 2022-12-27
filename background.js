@@ -1,1 +1,5 @@
-console.log("hi there")
+const datify = () => {
+    console.log("hi there")
+}
+
+browser.browserAction.onClicked.addListener(datify);
